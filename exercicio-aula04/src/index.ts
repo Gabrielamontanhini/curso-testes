@@ -1,13 +1,6 @@
-import calculator from "./calculator";
+import app from "./app";
 
-const sum = calculator.sum(1, 2);
-console.log(sum);
+app.listen(5000, () => {
+  console.log("Server is up and running");
+});
 
-const sub = calculator.sub(1, 2);
-console.log(sub);
-
-const mul = calculator.mul(1, 2);
-console.log(mul);
-
-const div = calculator.div(1, 2);
-console.log(div);
